@@ -7,7 +7,7 @@
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Star Schema](https://img.shields.io/badge/Star%20Schema-003366?style=for-the-badge&logo=databricks&logoColor=white)
 ![CSV](https://img.shields.io/badge/Dataset-CSV-217346?style=for-the-badge&logo=files&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Completed-28a745?style=for-the-badge)
+![Licence](https://img.shields.io/badge/Licence-MIT-28a745?style=for-the-badge)
 
 </div>
 
@@ -91,13 +91,13 @@ This dashboard provides end-to-end visibility into:
 
 ---
 
-### 📌 Page 2 — *(Branch & Loan Analytics)*
+### 📌 Page 2 — *(Loan Analytics)*
 
 > Drill-down into branch-level performance, loan repayment tracking, and outstanding balances segmented by product and geography.
 
 ---
 
-### 📌 Page 3 — *(Executive Summary)*
+### 📌 Page 3 — *(Branch Summary)*
 
 > High-level executive view summarising overall bank health, deposit growth YoY, and target gap analysis.
 
