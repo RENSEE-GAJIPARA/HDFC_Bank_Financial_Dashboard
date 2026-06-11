@@ -1,11 +1,10 @@
 <div align="center">
 
 <!-- Animated Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0,003366,005baa&height=200&section=header&text=HDFC%20Bank%20Financial%20Dashboard&fontSize=36&fontColor=ffffff&fontAlignY=38&desc=Power%20BI%20Analytics%20Project&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=004b8f&height=200&section=header&text=HDFC%20Bank%20Financial%20Dashboard&fontSize=36&fontColor=ffffff&fontAlignY=38&animation=fadeIn" width="100%"/>
 
 <!-- Badges -->
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
 ![Star Schema](https://img.shields.io/badge/Star%20Schema-003366?style=for-the-badge&logo=databricks&logoColor=white)
 ![CSV](https://img.shields.io/badge/Dataset-CSV-217346?style=for-the-badge&logo=files&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Completed-28a745?style=for-the-badge)
@@ -55,7 +54,8 @@ This dashboard provides end-to-end visibility into:
 
 > Clean **Star Schema** connecting two fact tables to four dimension tables for flexible, performant analytics.
 
-![Model View](Screenshots/Model_View.png)
+<img width="1046" height="696" alt="Model View" src="https://github.com/user-attachments/assets/2cbee2de-a083-43c3-ad8f-c72ebdaa2258" />
+
 
 </div>
 
@@ -103,24 +103,6 @@ This dashboard provides end-to-end visibility into:
 
 ---
 
-## ⚙️ DAX Measures Highlights
-
-```dax
--- Total Deposit Amount
-Total Deposit = SUM(FactTransactions[Amount])
-
--- Deposit Target
-Deposit Target = SUM(BranchDepositTargets[DepositTarget])
-
--- Achievement %
-Achievement % = DIVIDE([Total Deposit], [Deposit Target], 0)
-
--- Gap to Target
-Gap to Target = [Deposit Target] - [Total Deposit]
-```
-
----
-
 ## 🛠️ Tools & Technologies
 
 <div align="center">
@@ -129,7 +111,6 @@ Gap to Target = [Deposit Target] - [Total Deposit]
 |---|---|
 | **Microsoft Power BI Desktop** | Dashboard design, DAX, visuals |
 | **Power Query (M Language)** | Data transformation & cleaning |
-| **DAX** | Calculated columns & measures |
 | **Star Schema Modeling** | Relational data architecture |
 | **Bing Maps (Power BI)** | Geographic distribution visual |
 | **CSV / Excel** | Raw data source format |
@@ -186,7 +167,7 @@ cd "HDFC_Bank_Dataset"
 > 
 > 🌍 *Surat, Gujarat, India*
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1000&color=005BAA&center=true&vCenter=true&width=500&lines=Turning+raw+data+into+actionable+insights;Building+dashboards+that+tell+stories;Power+BI+%7C+DAX+%7C+Data+Modeling" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1000&color=004b8f&center=true&vCenter=true&width=500&lines=Turning+raw+data+into+actionable+insights;Building+dashboards+that+tell+stories;Power+BI+%7C+Data+Modeling" alt="Typing SVG" />
 
 </div>
 
@@ -197,7 +178,7 @@ cd "HDFC_Bank_Dataset"
 <!-- Stickers / Emojis Section -->
 > 🏆 Built with passion for data &nbsp;|&nbsp; 📊 Powered by Power BI &nbsp;|&nbsp; 🇮🇳 Made in India
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0,005baa,003366&height=120&section=footer&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=004b8f&height=120&section=footer&animation=fadeIn" width="100%"/>
 
 *⭐ If you found this project useful, please consider starring the repository!*
 
